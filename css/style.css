@@ -1,0 +1,891 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* WEBSITE */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    margin: 0 4.45%;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2.55% 0;
+}
+
+header div a {
+    font-family: "roboto mono";
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    width: 765px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 7.6%;
+    /* remember 3% margin for mediaquery */
+}
+
+.navbar li a {
+    font-family: "roboto mono";
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .on-page a {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 15px 10px;
+}
+
+/* HEADER */
+/* MAIN */
+
+/* MAIN */
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4.5% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-footer {
+    font-family: "roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+}
+
+.ul-footer li a {
+    line-height: 190%;
+    text-decoration: none;
+    color: white;
+}
+
+.specific-fontstyle-footer1 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.specific-fontstyle-footer2 {
+    font-family: "roboto";
+    font-size: .875rem;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 55%;
+}
+
+.specific-fontstyle-footer3 {
+    font-weight: 700;
+}
+
+.social-networks-column {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.social-networks-column li {
+    margin-left: 16%;
+}
+
+/* FOOTER */
+/* BODY */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* INICIO */
+/* BODY */
+
+/* HEADER */
+
+/* HEADER */
+/* MAIN */
+
+.grid-inicio {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    margin: 1% 0;
+}
+
+.section-1-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-1 {
+    grid-column: 1 / 3;
+    margin-right: 6%;
+    border-radius: 30px;
+    background-color: #0A84FF;
+}
+
+.section-1 h1 {
+    font-family: "roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin: 15% 1% 0% 11%;
+    padding: 0 5% 0 0;
+}
+
+.section-1 article p {
+    font-family: "roboto";
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    margin: 0% 9%;
+}
+
+.section-1 button {
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 45%;
+    margin: 0% 100% 15% 10%;
+    border-radius: 30px;
+    border-width: 0;
+    padding: 4% 10%;
+    background-color: black;
+}
+
+.section-1 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-2 {
+    grid-column: 3 / 6;
+}
+
+.desktop-inicio-svg-container {
+    width: 100%;
+    height: 100%;
+}
+
+.desktop-inicio-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* MAIN */
+/* FOOTER */
+
+/* FOOTER */
+/* BODY */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ARMA TU PC */
+/* BODY */
+
+/* HEADER */
+
+/* HEADER */
+/* MAIN */
+
+.grid-armatupc {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 550px 65px 950px 1000px 1050px 725px 725px 725px;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+.article-armatupc-flex-2 {
+    display: flex;
+    width: 100%;
+}
+
+.specific-fontstyle-armatupc {
+    font-size: 1.375rem;
+    font-weight: 900;
+}
+
+.armatupc-section-subtitle {
+    font-family: "roboto mono";
+    font-size: 1.875rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 2.5%;
+    color: white;
+}
+
+.article-armatupc-flex-2 div h3 {
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #409FFF;
+    margin-bottom: 3%;
+}
+
+.article-armatupc-flex-3 div {
+    height: 100%;
+    margin: 2% 0 0 10%;
+}
+
+.article-armatupc-flex-3 div h3 {
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #409FFF;
+    margin-bottom: 3%;
+}
+
+/* section 1 */
+
+.section-armatupc-1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+    margin-left: 9%;
+}
+
+.article-armatupc-flex-1 {
+    width: 90%;
+    height: 80%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-armatupc-1 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-armatupc-1 p {
+    font-size: 1.625rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-armatupc-1 p .intro-2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.intro-2 {
+    padding: 5% 10%;
+    border-radius: 30px;
+    color: black;
+    background-color: #d9d9d9;
+}
+
+/* section 2 */
+
+.section-armatupc-2 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+}
+
+.section-armatupc-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5%;
+    list-style: none;
+}
+
+.section-armatupc-2 ul li {
+    width: 16%;
+    height: 62px;
+    padding: 0.5% 1.5%;
+    align-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #0A84FF;
+}
+
+.section-armatupc-2 ul li a {
+    font-family: "roboto mono";
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+/* section 3 */
+
+.section-armatupc-3 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.article-armatupc-flex-2 div {
+    width: 35%;
+    max-height: 40%;
+    margin: 2% 0 0 10%;
+}
+
+.ul-armatupc {
+    line-height: 35px;
+    list-style: none;
+}
+
+.ul-armatupc li {
+    font-family: "roboto";
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* section 4 */
+
+.section-armatupc-4 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+}
+
+/* section 5 */
+
+.section-armatupc-5 {
+    grid-row: 5 / 6;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+}
+
+/* section 6 */
+
+.section-armatupc-6 {
+    grid-row: 6 / 7;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+}
+
+/* section 7 */
+
+.section-armatupc-7 {
+    grid-row: 7 / 8;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+}
+
+/* section 8 */
+
+.section-armatupc-8 {
+    grid-row: 8 / 9;
+    grid-column: 1 / 5;
+    font-family: "roboto";
+    color: white;
+}
+
+/* MAIN */
+/* FOOTER */
+
+/* FOOTER */
+/* BODY */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* RENDIMIENTO */
+/* BODY */
+
+/* HEADER */
+
+/* HEADER */
+/* MAIN */
+
+.grid-rendimiento {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 14% 8% 78%;
+}
+
+.section-rendimiento-1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    padding-top: 3%;
+}
+
+.section-rendimiento-1 article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section-rendimiento-1 article h1 {
+    font-family: "roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-rendimiento-1 article p {
+    margin: 4% 4%;
+    font-family: "roboto";
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.section-rendimiento-2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.section-rendimiento-2 h2 {
+    text-align: center;
+    font-family: "roboto mono";
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 10px;
+    color: white;
+    margin: 7% 0;
+}
+
+.section-rendimiento-3 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.section-rendimiento-4 {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+
+.rendimiento-guides-article-container {
+    border-radius: 30px;
+    background-color: #bababa;
+    margin: 4%;
+}
+
+.article-hardware p {
+    margin-bottom: 8%;
+}
+
+.rendimiento-guides-article-container h3 {
+    border-radius: 30px;
+    border-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: "roboto";
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    background-color: #0A84FF;
+    padding: 7%;
+}
+
+.rendimiento-guides-article-container p {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000000;
+    padding: 4%;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+}
+
+/* MAIN */
+/* FOOTER */
+
+/* FOOTER */
+/* BODY */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* COMPONENTES */
+/* BODY */
+
+/* HEADER */
+
+/* HEADER */
+/* MAIN */
+
+.grid-componentes {
+    display: grid;
+    width: 100%;
+    height: max-content;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 225px 750px 685px 685px 750px;
+}
+
+.section-componentes-1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+.section-componentes-1 article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section-componentes-1 article h1 {
+    font-family: "roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 2%;
+}
+
+.section-componentes-1 article p {
+    padding: 4%;
+    font-family: "roboto";
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.section-componentes-2 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    margin: 0 10% 0 6%;
+}
+
+.componentes-cards-article-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    background-color: #bababa;
+}
+
+.componentes-cards-article-container h2 {
+    font-family: "roboto";
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    background-color: #0A84FF;
+    padding: 3% 10%;
+}
+
+.componentes-cards-article-container p {
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    padding: 5%;
+}
+
+.componentes-cards-article-container div {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.componentes-cards-article-container div img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    vertical-align: bottom;
+}
+
+.section-componentes-3 {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    margin: 0 6% 0 10%;
+}
+
+.section-componentes-4 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    margin: 0 10% 0 6%;
+}
+
+.section-componentes-5 {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    margin: 0 6% 0 10%;
+}
+
+.section-componentes-6 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    margin: 0 10% 0 6%;
+}
+
+.section-componentes-7 {
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    margin: 0 6% 0 10%;
+}
+
+.section-componentes-8 {
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    margin: 0 55% 0 3%;
+}
+
+.section-8 {
+    border-radius: 30px;
+    background-color: #bababa;
+}
+
+.section-8 h2 {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    border-radius: 30px;
+    background-color: #0A84FF;
+    padding: 3% 10%;
+}
+
+.section-8 p {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000000;
+    padding: 4%;
+}
+
+.section-8 div img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+/* MAIN */
+/* FOOTER */
+
+/* FOOTER */
+/* BODY */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* PREGUNTAS */
+/* BODY */
+
+/* HEADER */
+
+/* HEADER */
+/* MAIN */
+
+.grid-preguntas {
+    display: grid;
+    grid-template: 18% repeat(3, minmax(200px, 1fr))/repeat(2, minmax(150px, 1fr)) 1% repeat(2, minmax(150px, 1fr));
+    margin: 2% 0;
+}
+
+.div-preg-1 {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+}
+
+.div-preg-1 article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.div-preg-1 article h1 {
+    font-family: "roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.div-preg-1 article p {
+    font-family: "roboto";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.grid-preguntas section article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #bababa;
+    border-radius: 30px;
+    font-family: "roboto";
+    width: 100%;
+    height: 100%;
+}
+
+.grid-preguntas section article h2 {
+    color: white;
+    border-radius: 30px;
+    background-color: #0A84FF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.grid-preguntas section article p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section-preg-1 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 70%;
+    height: fit-content;
+    justify-self: center;
+}
+
+.section-preg-1 article h2 {
+    padding: 3% 18.43%;
+}
+
+.section-preg-1 article p {
+    padding: 8% 0;
+}
+
+.section-preg-2 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    width: 70%;
+    height: fit-content;
+    margin: 5% 0;
+    justify-self: center;
+}
+
+.section-preg-2 article h2 {
+    padding: 3% 18.5%;
+}
+
+.section-preg-2 article p {
+    padding: 8% 0;
+}
+
+.section-preg-3 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    width: 70%;
+    height: fit-content;
+    justify-self: center;
+}
+
+.section-preg-3 article h2 {
+    padding: 3% 16.09%;
+}
+
+.section-preg-3 article p {
+    padding: 11.3% 5%;
+}
+
+.section-preg-4 {
+    grid-column: 4 / 6;
+    grid-row: 3 / 4;
+    width: 70%;
+    height: fit-content;
+    margin: 5% 0;
+    justify-self: center;
+}
+
+.section-preg-4 article h2 {
+    padding: 3% 12%;
+}
+
+.section-preg-4 article p {
+    padding: 5%;
+}
+
+.div-preg-2 {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+}
+
+.div-preg-2 h3 {
+    font-family: "roboto";
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: white;
+    margin: 13% 1% 2% 13.5%;
+    padding: 1%;
+}
+
+.div-preg-2 input {
+    border: solid;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #0A84FF;
+    background-color: #1e1e1e;
+    margin: 0 1% 1% 15%;
+    padding: 1.7% 3% 1.7% 4%;
+    width: 50%;
+    color: white;
+}
+
+.div-preg-2 input::placeholder {
+    color: #ffffff;
+    font-family: "roboto";
+    font-style: oblique;
+    letter-spacing: 1px;
+}
+
+.div-preg-2 input:focus::placeholder {
+    color: #ffffff31;
+}
+
+.div-preg-2 button {
+    border-width: 0px;
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+    background-color: #0080ffcb;
+}
+
+.div-preg-2 button a {
+    text-decoration: none;
+    font-family: "roboto mono";
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+
+/* MAIN */
+/* FOOTER */
+
+/* FOOTER */
+/* BODY */
+
+/* ---------------------------------------------------------------------------------------------------- */
