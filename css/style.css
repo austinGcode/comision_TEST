@@ -44,7 +44,6 @@ nav {
 
 .navbar li {
     margin-left: 7.6%;
-    /* remember 3% margin for mediaquery */
 }
 
 .navbar li a {
@@ -132,10 +131,12 @@ footer {
 .grid-inicio {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 19% 18% 21% 21% 21%;
     justify-content: center;
     margin: 1% 0;
 }
+
+
 
 .section-1-flex {
     display: flex;
@@ -889,3 +890,114 @@ footer {
 /* BODY */
 
 /* ---------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 744px) {
+
+    body {
+        margin: 0 3%;
+    }
+
+    /* INICIO */
+    /* BODY */
+    /* HEADER */
+
+    /* HEADER */
+    /* MAIN */
+
+    .grid-inicio {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 225px 73.7%;
+        margin: 2% 0;
+    }
+
+    .section-1-flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 40%;
+        grid-template-rows: 30% 70%;
+    }
+
+    .section-1 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        margin-right: 0%;
+    }
+
+    .section-1 h1 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        font-family: "roboto";
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: white;
+        margin: 3% 5% 1% 5%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .section-1 article {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        align-self: center;
+        justify-self: center;
+        margin: 1% 20% 3% 10%;
+    }
+
+    .section-1 article p {
+        font-family: "roboto";
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: white;
+        margin: unset;
+        padding: unset;
+        width: unset;
+        text-align: center;
+    }
+
+    .section-1 button {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        font-family: "roboto";
+        font-size: 1.25rem;
+        font-weight: 400;
+        width: 70%;
+        height: 40%;
+        margin: 15% 0 0 10%;
+        padding: unset;
+        border-radius: 30px;
+        border-width: 0;
+        padding: unset;
+        background-color: black;
+    }
+
+    .section-1 button a {
+        text-decoration: none;
+        color: white;
+        padding: 10%;
+    }
+
+    .section-2 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        margin-top: 2%;
+    }
+
+    .desktop-inicio-svg-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .desktop-inicio-svg {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* MAIN */
+    /* FOOTER */
+
+    /* FOOTER */
+    /* BODY */
+    /* ---------------------------------------------------------------------------------------------------- */
+}
+
+@media (max-width: 360px) {}
